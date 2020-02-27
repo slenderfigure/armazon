@@ -1,0 +1,16 @@
+    <footer></footer>
+        
+    <script>
+        function loadClasses(src) {
+            const SCRIPT = document.createElement('script');
+
+            SCRIPT.src = `src/js/${src}`;
+            document.body.appendChild(SCRIPT);
+        }
+
+        loadClasses('header.js');
+        loadClasses('classes/documentoverlay.class.js');
+        loadClasses('classes/ServerRequest.class.js');
+    </script>
+</body>
+</html>
